@@ -3,32 +3,30 @@ Author: Deep Baldha
 
 +++ File Structure +++
 
-"source_code.py" is the source code of the Flask app. It handles API calls and saving data of Python Dictionary in Persistence File.
+"source_code.py" is the source code of the Flask app.<br> It handles API calls and saving data of Python Dictionary in Persistence File.
 "cli.py" is the python source code for CLI.
-
-
-
-
+<br>
+<br>
+<br>
 +++ Deployment +++
 
 Flask App is deployed on Heroku.
-URL is https://czdatastore.herokuapp.com
+URL is https://czdatastore.herokuapp.com <br>
 APIs example are as fellow:
-
+<br>
 1) https://czdatastore.herokuapp.com/set/foo:104
 2) https://czdatastore.herokuapp.com/get/foo
 3) https://czdatastore.herokuapp.com/reset/iron
-
+<br>
 Above API calls returns JSON datafiles.
 Password for reset is "iron".
-
-
-
+<br>
+<br>
+<br>
 +++ How to Use CLI.py +++
-
-
+<br>
 In terminal/cmd:
-
+<br>
 1) python cli.py set <KEY> <VALUE>
 	
 	example: cli set foo 104
