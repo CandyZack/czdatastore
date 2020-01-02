@@ -24,25 +24,25 @@ Password for reset is "iron".
 
 In terminal/cmd:
 
-```bash
-1) python cli.py ```diff + set ``` <KEY> <VALUE>
-	
+
+1) python cli.py <span style="color:red;">set</span> <KEY> <VALUE>
+```bash	
 	example: python cli.py set foo 104
 
 	This command is used to store value VALUE under key KEY in datastore
 	Also gives confirmation on successful storage
 ```
-```bash
+
 2) python cli.py get <KEY>
-	
+```bash	
 	example: python cli.py get foo
 
 	This command is used to get value of key KEY from the datastore
 	Return "null" is not value
 ```
-```bash
+
 3) python cli.py reset <PassWord>
-	
+```bash	
 	example: python cli.py reset iron
 	
 	This command is used to reset the database and delete all the key:value pairs from datastore
