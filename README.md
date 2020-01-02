@@ -28,6 +28,8 @@ Password for reset is "iron".
 
 ## How to Use CLI.py
 
+Dependencies: Install Click and Requests Module in python3
+
 In terminal/cmd:
 
 ```bash
