@@ -2,7 +2,9 @@ Author: Deep Baldha
 
 ## File Structure
 
-"source_code.py" :  is the source code of the Flask app.<br> It handles API calls and saving data of Python Dictionary in Persistence File.
+"source_code.py" :  is the source code of the Flask app. 
+		    It handles API calls and saving data of Python Dictionary in Persistence File.
+		    
 "cli.py"         :  is the python source code for CLI.
 
 ## Deployment
