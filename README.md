@@ -33,14 +33,14 @@ In terminal/cmd:
 
 	This command is used to store value VALUE under key KEY in datastore
 	Also gives confirmation on successful storage
-
+<br>
 2) python cli.py get <KEY>
 	
 	example: cli get foo
 	
 	This command is used to get value of key KEY from the datastore
 	Return "null" is not value
-
+<br>
 3) python cli.py reset <PassWord>
 	
 	example: cli reset iron
