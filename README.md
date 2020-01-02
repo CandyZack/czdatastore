@@ -24,10 +24,11 @@ Password for reset is "iron".
 
 In terminal/cmd:
 
+'''bash
 1) python cli.py set <KEY> <VALUE>
 	
 	example: cli set foo 104
-
+'''
 	This command is used to store value VALUE under key KEY in datastore
 	Also gives confirmation on successful storage
 
