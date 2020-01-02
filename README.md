@@ -13,9 +13,9 @@ Flask App is deployed on Heroku.
 URL is https://czdatastore.herokuapp.com
 APIs example are as fellow:
 
-For Set: https://czdatastore.herokuapp.com/set/<key>:<value> <br>
-For Get: https://czdatastore.herokuapp.com/get/<key> <br>
-For Reset: https://czdatastore.herokuapp.com/reset/<password>
+For Set: https://czdatastore.herokuapp.com/set/Key:Value <br>
+For Get: https://czdatastore.herokuapp.com/get/Key <br>
+For Reset: https://czdatastore.herokuapp.com/reset/PassWord
 
 Examples for API:
 
