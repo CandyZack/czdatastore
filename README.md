@@ -2,14 +2,14 @@ Author: Deep Baldha
 
 
 +++ File Structure +++
-
+<br>
 "source_code.py" is the source code of the Flask app.<br> It handles API calls and saving data of Python Dictionary in Persistence File.
 "cli.py" is the python source code for CLI.
 <br>
 <br>
 <br>
 +++ Deployment +++
-
+<br>
 Flask App is deployed on Heroku.
 URL is https://czdatastore.herokuapp.com <br>
 APIs example are as fellow:
