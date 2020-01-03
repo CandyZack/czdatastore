@@ -36,6 +36,13 @@ def set_value(key,value):
 @app.route('/get/<string:key>',methods=['GET'])
 def get_value(key):
     global Dict
+
+    #Deserialize
+    try:
+        pickle_in = open('datastore.pickle','rb')
+        Dict = pickle.load(pickle_in)
+    except:
+        Dict = {}
     if key in Dict:
         value = Dict[key]
         return jsonify({'success': 1 , 'result': value,
@@ -64,4 +71,4 @@ def reset_value(password):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, threaded=False)
