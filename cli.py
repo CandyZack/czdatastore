@@ -6,9 +6,9 @@ import click
 @click.argument('key')
 @click.argument('value', nargs=-1)
 def main(command, key, value):
-
+    project_host_url = "https://czdatastore.herokuapp.com"
     if command == 'get':
-        URL = "https://czdatastore.herokuapp.com/get/"+str(key)
+        URL = project_host_url + "/get/"+str(key)
         response = requests.get(url=URL)
         data = response.json()
         result = data['result']
@@ -16,13 +16,13 @@ def main(command, key, value):
             result = 'null'
         print("output : ", result)
     elif command == 'set':
-        URL = "https://czdatastore.herokuapp.com/set/"+str(key)+':'+ str(value[0])
+        URL = project_host_url + "/set/"+str(key)+':'+ str(value[0])
         response = requests.get(url=URL)
         data = response.json()
         print("output : ",data['message'])
     elif command == 'reset':
         pw = key
-        URL = "https://czdatastore.herokuapp.com/reset/"+str(pw)
+        URL = project_host_url + "/reset/"+str(pw)
         response = requests.get(url=URL)
         data = response.json()
         result = data['message']
