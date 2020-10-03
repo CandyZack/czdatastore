@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  2 18:10:11 2020
-
-@author: CandyZack
-"""
 import requests
 import click
 
