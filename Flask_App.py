@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  2 16:38:14 2020
-
-@author: CandyZack
-"""
-
 from flask import Flask, jsonify, request
 import pickle
 
